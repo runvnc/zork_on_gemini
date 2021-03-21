@@ -18,10 +18,10 @@ pubsub.subscribe('app_spawn')
 
 def checkmessages():
     while True:
-        msg = pubsub.get_message()
-        if msg != None and msg['type'] != 'subscribe':
-            spawn_session(msg['data'], init)
-        time.sleep(0.1)
+        for msg in pubsub.listen():
+            if msg != None and msg['type'] != 'subscribe':
+                spawn_session(msg['data'], init)
+            time.sleep(0.1)
 
 def spawn_session(usr, func):
     user = usr

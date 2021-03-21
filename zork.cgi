@@ -9,22 +9,35 @@ from control_zork import *
 logging.basicConfig(filename='zorkcgi.log', level=logging.DEBUG)
 logging.info('--------------------------------------------------------------')
 
+def esc_markdown(s):
+    if s is None: return ''
+    escaped = s.translate(str.maketrans({
+                                          "]":  r"\]",
+                                          "\\": r"\\",
+                                          "#": r"\#",
+                                          ">": r"\>",
+                                          "^":  r"\^",
+                                          "$":  r"\$",
+                                          "*":  r"\*"}))
+    return escaped
+
 if __name__ == '__main__':
     if user != '':
         if query == "cmd":
             respond(INPUT, '>')
         else:
             respond(SUCCESS, 'text/gemini')
-            print(f'Logged in as [{user}]')
-
-            print("```shell")
+            print("# Zork")
+            print(f'## [{user}]')
+            print()
+            #print("```shell")
             try:
                 if user_active(user):
                     logging.info(f"{user} is active! sending {query}")
                     writepipe(user,'down',query)
                     #time.sleep(0.5)
                     text = waitread(user,'up')
-                    print(text)
+                    print(esc_markdown(text))
                 else:
                     logging.info(f'{user} is not active, spawning')
                     checkpipe(user,'up',True)
@@ -33,10 +46,17 @@ if __name__ == '__main__':
                     logging.info('parent trying to receive from child')
                     text = waitread(user,'up')
                     logging.info("parent got the output")
-                    print(text)
+                    print(esc_markdown(text))
                             
-                print("\r\n```")
+                #print("\r\n```")
+                print()
                 print("=> zork.cgi?cmd < Input Zork command >")
+                print("=> zork.cgi?help < ❔ Help >")
+                print("=> zork.cgi?info < ℹ️  Info >")
+                print("=> zork.cgi?inventory < 🎒 Inventory >")
+                print("=> zork.cgi?save < 💾 Save >")
+                print("=> zork.cgi?restore < 📂 Restore >")
+
             except Exception as err:
                 print("Error:")
                 print(err)

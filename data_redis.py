@@ -1,5 +1,5 @@
 import os, subprocess, sys
-from urllib.parse import unquote
+from urllib.parse import unquote, quote
 from pathlib import Path
 import time
 from multiprocessing import Process, set_start_method
@@ -35,33 +35,36 @@ def checkpipe(user, direction, sub=False):
         
 def writepipe(usr, direction,data):
     logging.info(f"Trying to publish app_{direction}_{usr} :" + data)
-    redisconn.publish(f'app_{direction}_{usr}',data)
+    redisconn.publish(f'app_{direction}_{usr}',quote(data))
         
 def readpipe(usr, direction):
     pipe = checkpipe(usr,direction,True)
     msg = pipe.get_message()
-    logging.info(__name__+"msg from sub is "+str(msg))
+    #msg = next(pipe.listen())
+    #logging.info(__name__+"msg from sub is "+str(msg))
     if not (msg is None) and msg['type'] == 'subscribe':
         msg = pipe.get_message()
     if msg is None: return None
     logging.info("pipe received message: "+str(msg))
-    return msg['data']
+    return unquote(msg['data'])
     
 def waitread(usr, direction):
+#    readpipe(usr, direction)
     txt = None
     tries = 0
-    while tries < 30 and txt == None:
+    while tries < 150 and txt == None:
         txt = readpipe(usr,direction)
-        if not not (txt is None):
-            read = ''
-            while not (read is None):
-                read = readpipe(usr,direction)
-                if not (read is None): txt += "\r\n" + read
-        time.sleep(0.05)
+        time.sleep(0.002)
         tries += 1
     return txt
    
 def user_active(usr):
-    return redisconn.exists(f'active_{usr}')
+    lastping = redisconn.get(f'ping_{usr}')
+    
+    if lastping is None:
+        return False
+    else:
+        lastping = float(lastping)
+        return (time.time() - lastping < 8)
     
 
