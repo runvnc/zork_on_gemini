@@ -6,7 +6,7 @@ from data_redis import *
 from gemini import *
 from control_zork import *
 
-logging.basicConfig(filename='zorkcgi.log', level=logging.DEBUG)
+logging.basicConfig(filename='zorkcgi.log', level=logging.CRITICAL)
 logging.info('--------------------------------------------------------------')
 
 def esc_markdown(s):

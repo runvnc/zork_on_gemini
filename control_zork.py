@@ -5,7 +5,7 @@ import logging
 import pexpect.replwrap
 import atexit
 
-logging.basicConfig(filename='zorkspawner.log', level=logging.DEBUG)
+logging.basicConfig(filename='zorkspawner.log', level=logging.CRITICAL)
 
 def exiting():
     logging.info("Child  exiting for some reason."+__name__)
@@ -16,7 +16,7 @@ def init(user):
     atexit.register(exiting) 
     logging.info("Child Spawning Zork..")
     #child = pexpect.spawn(mypath+'/zork',encoding='utf-8')
-    child = pexpect.replwrap.REPLWrapper(mypath+'/zork',"\n>",None)
+    child = pexpect.replwrap.REPLWrapper(mypath+f'/zork {user}',"\n>",None)
     #child.logfile = open(mypath+'/outzork.log','w')
     logging.info("Child Waiting for prompt..")
     text = child.run_command('look')
