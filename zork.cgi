@@ -24,6 +24,8 @@ if __name__ == '__main__':
         else:
             respond(SUCCESS, 'text/gemini')
             print("# Zork")
+            print("=> / Home")
+            print()
             print(f'## [{user}]')
             print()
             #print("```shell")
@@ -46,12 +48,13 @@ if __name__ == '__main__':
                             
                 #print("\r\n```")
                 print()
-                print("=> zork.cgi?cmd < Input Zork command >")
+                print("=> zork.cgi?cmd < ⌨️  Input command >")
                 print("=> zork.cgi?help < ❔ Help >")
                 print("=> zork.cgi?info < ℹ️  Info >")
                 print("=> zork.cgi?inventory < 🎒 Inventory >")
                 print("=> zork.cgi?save < 💾 Save >")
                 print("=> zork.cgi?restore < 📂 Restore >")
+                print(f"=> {user}.dat < 📥 Download save file >")
 
             except Exception as err:
                 print("Error:")
