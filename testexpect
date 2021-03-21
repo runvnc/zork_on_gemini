@@ -1,0 +1,8 @@
+#!/usr/bin/expect -f
+
+set timeout -1
+spawn ./zork
+expect ">"
+send -- "open mailbox\r"
+expect ">"
+expect eof

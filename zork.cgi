@@ -1,36 +1,47 @@
 #!/usr/bin/python3
-import os, subprocess, sys
+import os, subprocess, sys, time, traceback, logging
 from urllib.parse import unquote
-from shlex import quote
 from pathlib import Path
-import time
-from data import *
+from data_redis import *
 from gemini import *
-    
-def spawn_session(usr):
-    subprocess.Popen([mypath+'/control_zork.py',quote(usr)],
-                     shell=True,stdin=subprocess.PIPE)
-    Path(activef(usr)).touch()
+from control_zork import *
 
-if user != '':
-    if query == "__INPUT__":
-        respond(INPUT, '>')
-    else:
-        respond(SUCCESS, 'text/gemini')
-        print(f'Logged in as [{user}]')
+logging.basicConfig(filename='zorkcgi.log', level=logging.DEBUG)
+logging.info('--------------------------------------------------------------')
 
-        print("```shell")
-
-        if user_active(user):
-            send_command(user, query)
-            text = wait_for_zork(user)
-            print(text)
+if __name__ == '__main__':
+    if user != '':
+        if query == "cmd":
+            respond(INPUT, '>')
         else:
-            spawn_session(user)     
-            text = wait_for_zork(user)
-            print(text)
-                    
-        print("\r\n```")
-        print("=> zork.cgi?__INPUT__ < Click to input Zork command >")
-else:
-    respond(NEED_CERT, 'Client certificate required to log in.')
+            respond(SUCCESS, 'text/gemini')
+            print(f'Logged in as [{user}]')
+
+            print("```shell")
+            try:
+                if user_active(user):
+                    logging.info(f"{user} is active! sending {query}")
+                    writepipe(user,'down',query)
+                    #time.sleep(0.5)
+                    text = waitread(user,'up')
+                    print(text)
+                else:
+                    logging.info(f'{user} is not active, spawning')
+                    checkpipe(user,'up',True)
+                    spawn_session(user, init)
+                    #time.sleep(0.2)
+                    logging.info('parent trying to receive from child')
+                    text = waitread(user,'up')
+                    logging.info("parent got the output")
+                    print(text)
+                            
+                print("\r\n```")
+                print("=> zork.cgi?cmd < Input Zork command >")
+            except Exception as err:
+                print("Error:")
+                print(err)
+                t, v, trace = sys.exc_info()
+                print(t,v)
+                print(trace.format_exc)
+    else:
+        respond(NEED_CERT, 'Client certificate required to log in.')
