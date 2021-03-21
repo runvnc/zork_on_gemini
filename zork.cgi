@@ -11,14 +11,10 @@ logging.info('--------------------------------------------------------------')
 
 def esc_markdown(s):
     if s is None: return ''
-    escaped = s.translate(str.maketrans({
-                                          "]":  r"\]",
-                                          "\\": r"\\",
-                                          "#": r"\#",
-                                          ">": r"\>",
-                                          "^":  r"\^",
-                                          "$":  r"\$",
-                                          "*":  r"\*"}))
+    escaped = s.translate(
+        str.maketrans({"]":  r"\]","\\": r"\\","#": r"\#",
+                       ">": r"\>", "^":  r"\^",  "$":  r"\$",
+                       "*":  r"\*"}))
     return escaped
 
 if __name__ == '__main__':
