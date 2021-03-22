@@ -1,0 +1,30 @@
+# Zork
+
+This provides a way to play Zork in your Gemini browser.  For anyone who doesn't actually know what it is:
+
+> Zork is an interactive fiction computer game. It was originally developed by four members of the MIT Dynamic Modelling Group—Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling–between 1977 and 1979 for the DEC PDP-10 mainframe computer.[1][2][3] The four founded the company Infocom in 1979 and released Zork as a commercial game for personal computers, split due to memory limits of personal computers compared to the mainframe system. The three titles released commercially were Zork: The Great Underground Empire – Part I in 1980 (later known as Zork I), Zork II: The Wizard of Frobozz in 1981, and Zork III: The Dungeon Master in 1982.[4] The game has since been ported to numerous systems.
+
+You will need a client certificate setup already.
+Sort of an alpha, so YMMV.
+
+=> /cgi-bin/zork.cgi ▶️  Play Zork
+
+=> /cgi-bin/loggedin.cgi Logged in users
+
+## Why?
+Because it was a fun way to play around with Gemini and Python. 
+I don't claim anything more than that.
+
+## How?
+
+This site runs on the Jetforce Gemini server and the zork script is a jetforce cgi-bin (python).
+There are also processes for controlling each instance of zork.  IPC is via redis pubsub.
+
+=> cgi-bin/source.cgi Source code
+
+You can find the source code for zork here:
+=> https://github.com/devshane/zork
+
+## Similar
+
+=> gemini://gemini.thegonz.net Amazing work, several interactive programs
