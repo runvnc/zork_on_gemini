@@ -7,6 +7,7 @@ query = unquote(os.environ["QUERY_STRING"])
 user = ''
 if 'REMOTE_USER' in os.environ:
     user = quote(unquote(os.environ["REMOTE_USER"]))
+    user = user[:30]
     user += '_'+unquote(os.environ["TLS_CLIENT_HASH"])[-5:]
 
 def respond(code, meta): 
