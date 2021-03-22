@@ -1,0 +1,249 @@
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending help
+INFO:root:Trying to publish app_down_jason_26F60 :help
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Useful%20commands%3A%0D%0A%0D%0A%20%20%20The%20%27BRIEF%27%20command%20suppresses%20printing%20of%20long%20room%20descriptions%0D%0Afor%20rooms%20which%20have%20been%20visited.%20%20The%20%27SUPERBRIEF%27%20command%20suppresses%0D%0Aprinting%20of%20long%20room%20descriptions%20for%20all%20rooms.%20%20The%20%27VERBOSE%27%0D%0Acommand%20restores%20long%20descriptions.%0D%0A%20%20%20The%20%27INFO%27%20command%20prints%20information%20which%20might%20give%20some%20idea%0D%0Aof%20what%20the%20game%20is%20about.%0D%0A%20%20%20The%20%27QUIT%27%20command%20prints%20your%20score%20and%20asks%20whether%20you%20wish%0D%0Ato%20continue%20playing.%0D%0A%20%20%20The%20%27SAVE%27%20command%20saves%20the%20state%20of%20the%20game%20for%20later%20continuation.%0D%0A%20%20%20The%20%27RESTORE%27%20command%20restores%20a%20saved%20game.%0D%0A%20%20%20The%20%27INVENTORY%27%20command%20lists%20the%20objects%20in%20your%20possession.%0D%0A%20%20%20The%20%27LOOK%27%20command%20prints%20a%20description%20of%20your%20surroundings.%0D%0A%20%20%20The%20%27SCORE%27%20command%20prints%20your%20current%20score%20and%20ranking.%0D%0A%20%20%20The%20%27TIME%27%20command%20tells%20you%20how%20long%20you%20have%20been%20playing.%0D%0A%20%20%20The%20%27DIAGNOSE%27%20command%20reports%20on%20your%20injuries%2C%20if%20any.%0D%0A%0D%0ACommand%20abbreviations%3A%0D%0A%0D%0A%20%20%20The%20%27INVENTORY%27%20command%20may%20be%20abbreviated%20%27I%27.%0D%0A%20%20%20The%20%27LOOK%27%20command%20may%20be%20abbreviated%20%27L%27.%0D%0A%20%20%20The%20%27QUIT%27%20command%20may%20be%20abbreviated%20%27Q%27.%0D%0A%0D%0AContainment%3A%0D%0A%0D%0A%20%20%20Some%20objects%20can%20contain%20other%20objects.%20%20Many%20such%20containers%20can%0D%0Abe%20opened%20and%20closed.%20%20The%20rest%20are%20always%20open.%20%20%20They%20may%20or%20may%0D%0Anot%20be%20transparent.%20%20For%20you%20to%20access%20%28e.g.%2C%20take%29%20an%20object%0D%0Awhich%20is%20in%20a%20container%2C%20the%20container%20must%20be%20open.%20%20For%20you%0D%0Ato%20see%20such%20an%20object%2C%20the%20container%20must%20be%20either%20open%20or%0D%0Atransparent.%20%20Containers%20have%20a%20capacity%2C%20and%20objects%20have%20sizes%3B%0D%0Athe%20number%20of%20objects%20which%20will%20fit%20therefore%20depends%20on%20their%0D%0Asizes.%20%20You%20may%20put%20any%20object%20you%20have%20access%20to%20%28it%20need%20not%20be%0D%0Ain%20your%20hands%29%20into%20any%20other%20object.%20%20At%20some%20point%2C%20the%20program%0D%0Awill%20attempt%20to%20pick%20it%20up%20if%20you%20don%27t%20already%20have%20it%2C%20which%0D%0Aprocess%20may%20fail%20if%20you%27re%20carrying%20too%20much.%20%20Although%20containers%0D%0Acan%20contain%20other%20containers%2C%20the%20program%20doesn%27t%20access%20more%20than%0D%0Aone%20level%20down.%0D%0A%0D%0AFighting%3A%0D%0A%0D%0A%20%20%20Occupants%20of%20the%20dungeon%20will%2C%20as%20a%20rule%2C%20fight%20back%20when%0D%0Aattacked.%20%20In%20some%20cases%2C%20they%20may%20attack%20even%20if%20unprovoked.%0D%0AUseful%20verbs%20here%20are%20%27ATTACK%20%3Cvillain%3E%20WITH%20%3Cweapon%3E%27%2C%20%27KILL%27%2C%0D%0Aetc.%20%20Knife-throwing%20may%20or%20may%20not%20be%20useful.%20%20You%20have%20a%0D%0Afighting%20strength%20which%20varies%20with%20time.%20%20Being%20in%20a%20fight%2C%0D%0Agetting%20killed%2C%20and%20being%20injured%20all%20lower%20this%20strength.%0D%0AStrength%20is%20regained%20with%20time.%20%20Thus%2C%20it%20is%20not%20a%20good%20idea%20to%0D%0Afight%20someone%20immediately%20after%20being%20killed.%20%20Other%20details%0D%0Ashould%20become%20apparent%20after%20a%20few%20melees%20or%20deaths.%0D%0A%0D%0ACommand%20parser%3A%0D%0A%0D%0A%20%20%20A%20command%20is%20one%20line%20of%20text%20terminated%20by%20a%20carriage%20return.%0D%0AFor%20reasons%20of%20simplicity%2C%20all%20words%20are%20distinguished%20by%20their%0D%0Afirst%20six%20letters.%20%20All%20others%20are%20ignored.%20%20For%20example%2C%20typing%0D%0A%27DISASSEMBLE%20THE%20ENCYCLOPEDIA%27%20is%20not%20only%20meaningless%2C%20it%20also%0D%0Acreates%20excess%20effort%20for%20your%20fingers.%20%20Note%20that%20this%20trunca-%0D%0Ation%20may%20produce%20ambiguities%20in%20the%20intepretation%20of%20longer%20words.%0D%0A%0D%0A%20%20%20You%20are%20dealing%20with%20a%20fairly%20stupid%20parser%2C%20which%20understands%0D%0Athe%20following%20types%20of%20things--%0D%0A%0D%0A%20%20%20Actions%3A%0D%0A%09Among%20the%20more%20obvious%20of%20these%2C%20such%20as%20TAKE%2C%20PUT%2C%20DROP%2C%20etc.%0D%0A%09Fairly%20general%20forms%20of%20these%20may%20be%20used%2C%20such%20as%20PICK%20UP%2C%0D%0A%09PUT%20DOWN%2C%20etc.%0D%0A%0D%0A%20%20%20Directions%3A%0D%0A%09NORTH%2C%20SOUTH%2C%20UP%2C%20DOWN%2C%20etc.%20and%20their%20various%20abbreviations.%0D%0A%09Other%20more%20obscure%20directions%20%28LAND%2C%20CROSS%29%20are%20appropriate%20in%0D%0A%09only%20certain%20situations.%0D%0A%0D%0A%20%20%20Objects%3A%0D%0A%09Most%20objects%20have%20names%20and%20can%20be%20referenced%20by%20them.%0D%0A%0D%0A%20%20%20Adjectives%3A%0D%0A%09Some%20adjectives%20are%20understood%20and%20required%20when%20there%20are%0D%0A%09two%20objects%20which%20can%20be%20referenced%20with%20the%20same%20%27name%27%20%28e.g.%2C%0D%0A%09DOORs%2C%20BUTTONs%29.%0D%0A%0D%0A%20%20%20Prepositions%3A%0D%0A%09It%20may%20be%20necessary%20in%20some%20cases%20to%20include%20prepositions%2C%20but%0D%0A%09the%20parser%20attempts%20to%20handle%20cases%20which%20aren%27t%20ambiguous%0D%0A%09without.%20%20Thus%20%27GIVE%20CAR%20TO%20DEMON%27%20will%20work%2C%20as%20will%20%27GIVE%20DEMON%0D%0A%09CAR%27.%20%20%27GIVE%20CAR%20DEMON%27%20probably%20won%27t%20do%20anything%20interesting.%0D%0A%09When%20a%20preposition%20is%20used%2C%20it%20should%20be%20appropriate%3B%20%20%27GIVE%20CAR%0D%0A%09WITH%20DEMON%27%20won%27t%20parse.%0D%0A%0D%0A%20%20%20Sentences%3A%0D%0A%09The%20parser%20understands%20a%20reasonable%20number%20of%20syntactic%20construc-%0D%0A%09tions.%20%20In%20particular%2C%20multiple%20commands%20%28separated%20by%20commas%29%0D%0A%09can%20be%20placed%20on%20the%20same%20line.%0D%0A%0D%0A%20%20%20Ambiguity%3A%0D%0A%09The%20parser%20tries%20to%20be%20clever%20about%20what%20to%20do%20in%20the%20case%20of%0D%0A%09actions%20which%20require%20objects%20that%20are%20not%20explicitly%20specified.%0D%0A%09If%20there%20is%20only%20one%20possible%20object%2C%20the%20parser%20will%20assume%0D%0A%09that%20it%20should%20be%20used.%20%20Otherwise%2C%20the%20parser%20will%20ask.%0D%0A%09Most%20questions%20asked%20by%20the%20parser%20can%20be%20answered.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending restore
+INFO:root:Trying to publish app_down_jason_26F60 :restore
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Restored.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'It%20is%20pitch%20dark.%20%20You%20are%20likely%20to%20be%20eaten%20by%20a%20grue.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending d
+INFO:root:Trying to publish app_down_jason_26F60 :d
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20the%20kitchen%20of%20the%20white%20house.%20%20A%20table%20seems%20to%20have%0D%0Abeen%20used%20recently%20for%20the%20preparation%20of%20food.%20%20A%20passage%20leads%20to%0D%0Athe%20west%2C%20and%20a%20dark%20staircase%20can%20be%20seen%20leading%20upward.%20%20To%20the%0D%0Aeast%20is%20a%20small%20window%20which%20is%20open.%0D%0AOn%20the%20table%20is%20an%20elongated%20brown%20sack%2C%20smelling%20of%20hot%20peppers.%0D%0AA%20clear%20glass%20bottle%20is%20here.%0D%0AThe%20glass%20bottle%20contains%3A%0D%0A%20%20A%20quantity%20of%20water.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending quit
+INFO:root:Trying to publish app_down_jason_26F60 :quit
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending quit
+INFO:root:Trying to publish app_down_jason_26F60 :quit
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending info
+INFO:root:Trying to publish app_down_jason_26F60 :info
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending help
+INFO:root:Trying to publish app_down_jason_26F60 :help
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending info
+INFO:root:Trying to publish app_down_jason_26F60 :info
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Welcome%20to%20Dungeon%21%0D%0A%0D%0A%20%20%20You%20are%20near%20a%20large%20dungeon%2C%20which%20is%20reputed%20to%20contain%20vast%0D%0Aquantities%20of%20treasure.%20%20%20Naturally%2C%20you%20wish%20to%20acquire%20some%20of%20it.%0D%0AIn%20order%20to%20do%20so%2C%20you%20must%20of%20course%20remove%20it%20from%20the%20dungeon.%20%20To%0D%0Areceive%20full%20credit%20for%20it%2C%20you%20must%20deposit%20it%20safely%20in%20the%20trophy%0D%0Acase%20in%20the%20living%20room%20of%20the%20house.%0D%0A%0D%0A%20%20%20In%20addition%20to%20valuables%2C%20the%20dungeon%20contains%20various%20objects%0D%0Awhich%20may%20or%20may%20not%20be%20useful%20in%20your%20attempt%20to%20get%20rich.%20%20You%20may%0D%0Aneed%20sources%20of%20light%2C%20since%20dungeons%20are%20often%20dark%2C%20and%20weapons%2C%0D%0Asince%20dungeons%20often%20have%20unfriendly%20things%20wandering%20about.%20%20Reading%0D%0Amaterial%20is%20scattered%20around%20the%20dungeon%20as%20well%3B%20%20some%20of%20it%0D%0Ais%20rumored%20to%20be%20useful.%0D%0A%0D%0A%20%20%20To%20determine%20how%20successful%20you%20have%20been%2C%20a%20score%20is%20kept.%0D%0AWhen%20you%20find%20a%20valuable%20object%20and%20pick%20it%20up%2C%20you%20receive%20a%0D%0Acertain%20number%20of%20points%2C%20which%20depends%20on%20the%20difficulty%20of%20finding%0D%0Athe%20object.%20%20You%20receive%20extra%20points%20for%20transporting%20the%20treasure%0D%0Asafely%20to%20the%20living%20room%20and%20placing%20it%20in%20the%20trophy%20case.%20%20In%0D%0Aaddition%2C%20some%20particularly%20interesting%20rooms%20have%20a%20value%20associated%0D%0Awith%20visiting%20them.%20%20The%20only%20penalty%20is%20for%20getting%20yourself%20killed%2C%0D%0Awhich%20you%20may%20do%20only%20twice.%0D%0A%0D%0A%20%20%20Of%20special%20note%20is%20a%20thief%20%28always%20carrying%20a%20large%20bag%29%20who%0D%0Alikes%20to%20wander%20around%20in%20the%20dungeon%20%28he%20has%20never%20been%20seen%20by%20the%0D%0Alight%20of%20day%29.%20%20He%20likes%20to%20take%20things.%20%20Since%20he%20steals%20for%20pleasure%0D%0Arather%20than%20profit%20and%20is%20somewhat%20sadistic%2C%20he%20only%20takes%20things%20which%0D%0Ayou%20have%20seen.%20%20Although%20he%20prefers%20valuables%2C%20sometimes%20in%20his%20haste%0D%0Ahe%20may%20take%20something%20which%20is%20worthless.%20%20From%20time%20to%20time%2C%20he%20examines%0D%0Ahis%20take%20and%20discards%20objects%20which%20he%20doesn%27t%20like.%20%20He%20may%20occas-%0D%0Aionally%20stop%20in%20a%20room%20you%20are%20visiting%2C%20but%20more%20often%20he%20just%20wanders%0D%0Athrough%20and%20rips%20you%20off%20%28he%20is%20a%20skilled%20pickpocket%29.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending quit
+INFO:root:Trying to publish app_down_jason_26F60 :quit
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Your%20score%20would%20be%200%20%5Btotal%20of%20585%20points%5D%2C%20in%205%20moves.%0D%0AThis%20gives%20you%20the%20rank%20of%20Beginner.%0D%0ADo%20you%20wish%20to%20leave%20the%20game%3F%0D%0A'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending no
+INFO:root:Trying to publish app_down_jason_26F60 :no
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Your%20score%20would%20be%200%20%5Btotal%20of%20585%20points%5D%2C%20in%205%20moves.%0D%0AThis%20gives%20you%20the%20rank%20of%20Beginner.%0D%0ADo%20you%20wish%20to%20leave%20the%20game%3F%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending look
+INFO:root:Trying to publish app_down_jason_26F60 :look
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending quit
+INFO:root:Trying to publish app_down_jason_26F60 :quit
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Your%20score%20would%20be%200%20%5Btotal%20of%20585%20points%5D%2C%20in%207%20moves.%0D%0AThis%20gives%20you%20the%20rank%20of%20Beginner.%0D%0ADo%20you%20wish%20to%20leave%20the%20game%3F%0D%0A'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending yes
+INFO:root:Trying to publish app_down_jason_26F60 :yes
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending look
+INFO:root:Trying to publish app_down_jason_26F60 :look
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending restore
+INFO:root:Trying to publish app_down_jason_26F60 :restore
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Restored.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'It%20is%20pitch%20dark.%20%20You%20are%20likely%20to%20be%20eaten%20by%20a%20grue.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending u
+INFO:root:Trying to publish app_down_jason_26F60 :u
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending 
+INFO:root:Trying to publish app_down_jason_26F60 :
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending restore
+INFO:root:Trying to publish app_down_jason_26F60 :restore
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Restored.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending look
+INFO:root:Trying to publish app_down_jason_26F60 :look
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'It%20is%20pitch%20dark.%20%20You%20are%20likely%20to%20be%20eaten%20by%20a%20grue.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending u
+INFO:root:Trying to publish app_down_jason_26F60 :u
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Oh%2C%20no%21%20%20You%20walked%20into%20the%20slavering%20fangs%20of%20a%20lurking%20grue.%0D%0AYou%20clearly%20are%20a%20suicidal%20maniac.%20%20We%20don%27t%20allow%20psychotics%20in%20the%0D%0Adungeon%2C%20since%20they%20may%20harm%20other%20adventurers.%20%20Your%20remains%20will%20be%0D%0Ainstalled%20in%20the%20land%20of%20the%20living%20dead%2C%20where%20your%20fellow%20adventurers%0D%0Amay%20gloat%20over%20them.%0D%0AYour%20score%20is%2010%20%5Btotal%20of%20585%20points%5D%2C%20in%2011%20moves.%0D%0AThis%20gives%20you%20the%20rank%20of%20Beginner.%0D%0AThe%20game%20is%20over.%0D%0A'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is not active, spawning
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:parent trying to receive from child
+INFO:root:parent got the output
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending help
+INFO:root:Trying to publish app_down_jason_26F60 :help
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'Useful%20commands%3A%0D%0A%0D%0A%20%20%20The%20%27BRIEF%27%20command%20suppresses%20printing%20of%20long%20room%20descriptions%0D%0Afor%20rooms%20which%20have%20been%20visited.%20%20The%20%27SUPERBRIEF%27%20command%20suppresses%0D%0Aprinting%20of%20long%20room%20descriptions%20for%20all%20rooms.%20%20The%20%27VERBOSE%27%0D%0Acommand%20restores%20long%20descriptions.%0D%0A%20%20%20The%20%27INFO%27%20command%20prints%20information%20which%20might%20give%20some%20idea%0D%0Aof%20what%20the%20game%20is%20about.%0D%0A%20%20%20The%20%27QUIT%27%20command%20prints%20your%20score%20and%20asks%20whether%20you%20wish%0D%0Ato%20continue%20playing.%0D%0A%20%20%20The%20%27SAVE%27%20command%20saves%20the%20state%20of%20the%20game%20for%20later%20continuation.%0D%0A%20%20%20The%20%27RESTORE%27%20command%20restores%20a%20saved%20game.%0D%0A%20%20%20The%20%27INVENTORY%27%20command%20lists%20the%20objects%20in%20your%20possession.%0D%0A%20%20%20The%20%27LOOK%27%20command%20prints%20a%20description%20of%20your%20surroundings.%0D%0A%20%20%20The%20%27SCORE%27%20command%20prints%20your%20current%20score%20and%20ranking.%0D%0A%20%20%20The%20%27TIME%27%20command%20tells%20you%20how%20long%20you%20have%20been%20playing.%0D%0A%20%20%20The%20%27DIAGNOSE%27%20command%20reports%20on%20your%20injuries%2C%20if%20any.%0D%0A%0D%0ACommand%20abbreviations%3A%0D%0A%0D%0A%20%20%20The%20%27INVENTORY%27%20command%20may%20be%20abbreviated%20%27I%27.%0D%0A%20%20%20The%20%27LOOK%27%20command%20may%20be%20abbreviated%20%27L%27.%0D%0A%20%20%20The%20%27QUIT%27%20command%20may%20be%20abbreviated%20%27Q%27.%0D%0A%0D%0AContainment%3A%0D%0A%0D%0A%20%20%20Some%20objects%20can%20contain%20other%20objects.%20%20Many%20such%20containers%20can%0D%0Abe%20opened%20and%20closed.%20%20The%20rest%20are%20always%20open.%20%20%20They%20may%20or%20may%0D%0Anot%20be%20transparent.%20%20For%20you%20to%20access%20%28e.g.%2C%20take%29%20an%20object%0D%0Awhich%20is%20in%20a%20container%2C%20the%20container%20must%20be%20open.%20%20For%20you%0D%0Ato%20see%20such%20an%20object%2C%20the%20container%20must%20be%20either%20open%20or%0D%0Atransparent.%20%20Containers%20have%20a%20capacity%2C%20and%20objects%20have%20sizes%3B%0D%0Athe%20number%20of%20objects%20which%20will%20fit%20therefore%20depends%20on%20their%0D%0Asizes.%20%20You%20may%20put%20any%20object%20you%20have%20access%20to%20%28it%20need%20not%20be%0D%0Ain%20your%20hands%29%20into%20any%20other%20object.%20%20At%20some%20point%2C%20the%20program%0D%0Awill%20attempt%20to%20pick%20it%20up%20if%20you%20don%27t%20already%20have%20it%2C%20which%0D%0Aprocess%20may%20fail%20if%20you%27re%20carrying%20too%20much.%20%20Although%20containers%0D%0Acan%20contain%20other%20containers%2C%20the%20program%20doesn%27t%20access%20more%20than%0D%0Aone%20level%20down.%0D%0A%0D%0AFighting%3A%0D%0A%0D%0A%20%20%20Occupants%20of%20the%20dungeon%20will%2C%20as%20a%20rule%2C%20fight%20back%20when%0D%0Aattacked.%20%20In%20some%20cases%2C%20they%20may%20attack%20even%20if%20unprovoked.%0D%0AUseful%20verbs%20here%20are%20%27ATTACK%20%3Cvillain%3E%20WITH%20%3Cweapon%3E%27%2C%20%27KILL%27%2C%0D%0Aetc.%20%20Knife-throwing%20may%20or%20may%20not%20be%20useful.%20%20You%20have%20a%0D%0Afighting%20strength%20which%20varies%20with%20time.%20%20Being%20in%20a%20fight%2C%0D%0Agetting%20killed%2C%20and%20being%20injured%20all%20lower%20this%20strength.%0D%0AStrength%20is%20regained%20with%20time.%20%20Thus%2C%20it%20is%20not%20a%20good%20idea%20to%0D%0Afight%20someone%20immediately%20after%20being%20killed.%20%20Other%20details%0D%0Ashould%20become%20apparent%20after%20a%20few%20melees%20or%20deaths.%0D%0A%0D%0ACommand%20parser%3A%0D%0A%0D%0A%20%20%20A%20command%20is%20one%20line%20of%20text%20terminated%20by%20a%20carriage%20return.%0D%0AFor%20reasons%20of%20simplicity%2C%20all%20words%20are%20distinguished%20by%20their%0D%0Afirst%20six%20letters.%20%20All%20others%20are%20ignored.%20%20For%20example%2C%20typing%0D%0A%27DISASSEMBLE%20THE%20ENCYCLOPEDIA%27%20is%20not%20only%20meaningless%2C%20it%20also%0D%0Acreates%20excess%20effort%20for%20your%20fingers.%20%20Note%20that%20this%20trunca-%0D%0Ation%20may%20produce%20ambiguities%20in%20the%20intepretation%20of%20longer%20words.%0D%0A%0D%0A%20%20%20You%20are%20dealing%20with%20a%20fairly%20stupid%20parser%2C%20which%20understands%0D%0Athe%20following%20types%20of%20things--%0D%0A%0D%0A%20%20%20Actions%3A%0D%0A%09Among%20the%20more%20obvious%20of%20these%2C%20such%20as%20TAKE%2C%20PUT%2C%20DROP%2C%20etc.%0D%0A%09Fairly%20general%20forms%20of%20these%20may%20be%20used%2C%20such%20as%20PICK%20UP%2C%0D%0A%09PUT%20DOWN%2C%20etc.%0D%0A%0D%0A%20%20%20Directions%3A%0D%0A%09NORTH%2C%20SOUTH%2C%20UP%2C%20DOWN%2C%20etc.%20and%20their%20various%20abbreviations.%0D%0A%09Other%20more%20obscure%20directions%20%28LAND%2C%20CROSS%29%20are%20appropriate%20in%0D%0A%09only%20certain%20situations.%0D%0A%0D%0A%20%20%20Objects%3A%0D%0A%09Most%20objects%20have%20names%20and%20can%20be%20referenced%20by%20them.%0D%0A%0D%0A%20%20%20Adjectives%3A%0D%0A%09Some%20adjectives%20are%20understood%20and%20required%20when%20there%20are%0D%0A%09two%20objects%20which%20can%20be%20referenced%20with%20the%20same%20%27name%27%20%28e.g.%2C%0D%0A%09DOORs%2C%20BUTTONs%29.%0D%0A%0D%0A%20%20%20Prepositions%3A%0D%0A%09It%20may%20be%20necessary%20in%20some%20cases%20to%20include%20prepositions%2C%20but%0D%0A%09the%20parser%20attempts%20to%20handle%20cases%20which%20aren%27t%20ambiguous%0D%0A%09without.%20%20Thus%20%27GIVE%20CAR%20TO%20DEMON%27%20will%20work%2C%20as%20will%20%27GIVE%20DEMON%0D%0A%09CAR%27.%20%20%27GIVE%20CAR%20DEMON%27%20probably%20won%27t%20do%20anything%20interesting.%0D%0A%09When%20a%20preposition%20is%20used%2C%20it%20should%20be%20appropriate%3B%20%20%27GIVE%20CAR%0D%0A%09WITH%20DEMON%27%20won%27t%20parse.%0D%0A%0D%0A%20%20%20Sentences%3A%0D%0A%09The%20parser%20understands%20a%20reasonable%20number%20of%20syntactic%20construc-%0D%0A%09tions.%20%20In%20particular%2C%20multiple%20commands%20%28separated%20by%20commas%29%0D%0A%09can%20be%20placed%20on%20the%20same%20line.%0D%0A%0D%0A%20%20%20Ambiguity%3A%0D%0A%09The%20parser%20tries%20to%20be%20clever%20about%20what%20to%20do%20in%20the%20case%20of%0D%0A%09actions%20which%20require%20objects%20that%20are%20not%20explicitly%20specified.%0D%0A%09If%20there%20is%20only%20one%20possible%20object%2C%20the%20parser%20will%20assume%0D%0A%09that%20it%20should%20be%20used.%20%20Otherwise%2C%20the%20parser%20will%20ask.%0D%0A%09Most%20questions%20asked%20by%20the%20parser%20can%20be%20answered.%0D'}
+INFO:root:--------------------------------------------------------------
+INFO:root:--------------------------------------------------------------
+INFO:root:jason_26F60 is active! sending l
+INFO:root:Trying to publish app_down_jason_26F60 :l
+INFO:root:Subscribing to app_up_jason_26F60
+INFO:root:pipe received message: {'type': 'message', 'pattern': None, 'channel': 'app_up_jason_26F60', 'data': 'You%20are%20in%20an%20open%20field%20west%20of%20a%20big%20white%20house%20with%20a%20boarded%0D%0Afront%20door.%0D%0AThere%20is%20a%20small%20mailbox%20here.%0D'}

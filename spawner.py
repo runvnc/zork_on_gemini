@@ -7,7 +7,7 @@ from multiprocessing import Process, set_start_method
 import logging, redis, datetime
 from control_zork import *
 
-logging.basicConfig(filename='zorkspawner.log', level=logging.CRITICAL)
+logging.basicConfig(filename='spawner.log', level=logging.DEBUG)
 
 pubsub = {}
 

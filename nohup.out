@@ -1,0 +1,128 @@
+rm: cannot remove '*.log': No such file or directory
+ERR wrong number of arguments for 'del' command
+
+
+You are now riding on...
+_________    _____________
+______  /______  /___  __/_______________________
+___ _  /_  _ \  __/_  /_ _  __ \_  ___/  ___/  _ \
+/ /_/ / /  __/ /_ _  __/ / /_/ /  /   / /__ /  __/
+\____/  \___/\__/ /_/    \____//_/    \___/ \___/
+
+An Experimental Gemini Server, v0.8.1
+https://github.com/michael-lazar/jetforce
+
+Server hostname is zork.club
+TLS Certificate File: /etc/letsencrypt/live/zork.club/fullchain.pem
+TLS Private Key File: /etc/letsencrypt/live/zork.club/privkey.pem
+Listening on 167.71.119.170:1965
+rm: cannot remove '*.log': No such file or directory
+ERR wrong number of arguments for 'del' command
+
+
+You are now riding on...
+_________    _____________
+______  /______  /___  __/_______________________
+___ _  /_  _ \  __/_  /_ _  __ \_  ___/  ___/  _ \
+/ /_/ / /  __/ /_ _  __/ / /_/ /  /   / /__ /  __/
+\____/  \___/\__/ /_/    \____//_/    \___/ \___/
+
+An Experimental Gemini Server, v0.8.1
+https://github.com/michael-lazar/jetforce
+
+Server hostname is zork.club
+TLS Certificate File: /etc/letsencrypt/live/zork.club/fullchain.pem
+TLS Private Key File: /etc/letsencrypt/live/zork.club/privkey.pem
+Listening on 167.71.119.170:1965
+177.236.52.215 [22/Mar/2021:02:56:51 +0000] "gemini://zork.club/cgi-bin/zork.cgi?info" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:02:56:58 +0000] "gemini://zork.club/cgi-bin/zork.cgi?info" 20 text/gemini 2144
+177.236.52.215 [22/Mar/2021:02:57:03 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:06 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 417
+177.236.52.215 [22/Mar/2021:02:57:14 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:15 +0000] "gemini://zork.club/cgi-bin/zork.cgi?s" 20 text/gemini 411
+177.236.52.215 [22/Mar/2021:02:57:17 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:19 +0000] "gemini://zork.club/cgi-bin/zork.cgi?e" 20 text/gemini 409
+177.236.52.215 [22/Mar/2021:02:57:20 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:22 +0000] "gemini://zork.club/cgi-bin/zork.cgi?open%20window" 20 text/gemini 374
+177.236.52.215 [22/Mar/2021:02:57:24 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:27 +0000] "gemini://zork.club/cgi-bin/zork.cgi?enter%20window" 20 text/gemini 698
+177.236.52.215 [22/Mar/2021:02:57:29 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:31 +0000] "gemini://zork.club/cgi-bin/zork.cgi?up" 20 text/gemini 363
+177.236.52.215 [22/Mar/2021:02:57:33 +0000] "gemini://zork.club/cgi-bin/zork.cgi?save" 20 text/gemini 313
+177.236.52.215 [22/Mar/2021:02:57:36 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:38 +0000] "gemini://zork.club/cgi-bin/zork.cgi?up" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:02:57:41 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:02:57:43 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:03:30:22 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:03:30:26 +0000] "gemini://zork.club/cgi-bin/zork.cgi?help" 20 text/gemini 4742
+177.236.52.215 [22/Mar/2021:03:30:32 +0000] "gemini://zork.club/cgi-bin/zork.cgi?info" 20 text/gemini 2144
+177.236.52.215 [22/Mar/2021:03:30:36 +0000] "gemini://zork.club/cgi-bin/zork.cgi?restore" 20 text/gemini 316
+177.236.52.215 [22/Mar/2021:03:30:38 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:03:30:42 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 363
+177.236.52.215 [22/Mar/2021:03:30:47 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:03:30:51 +0000] "gemini://zork.club/cgi-bin/zork.cgi?d" 20 text/gemini 698
+177.236.52.215 [22/Mar/2021:04:04:40 +0000] "gemini://zork.club/cgi-bin/zork.cgi?info" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:04:52 +0000] "gemini://zork.club/" 20 text/gemini 263
+177.236.52.215 [22/Mar/2021:04:05:08 +0000] "gemini://zork.club/cgi-bin/loggedin.cgi" 20 text/gemini 66
+177.236.52.215 [22/Mar/2021:04:05:15 +0000] "gemini://zork.club/" 20 text/gemini 263
+177.236.52.215 [22/Mar/2021:04:05:19 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 417
+
+You are now riding on...
+_________    _____________
+______  /______  /___  __/_______________________
+___ _  /_  _ \  __/_  /_ _  __ \_  ___/  ___/  _ \
+/ /_/ / /  __/ /_ _  __/ / /_/ /  /   / /__ /  __/
+\____/  \___/\__/ /_/    \____//_/    \___/ \___/
+
+An Experimental Gemini Server, v0.8.1
+https://github.com/michael-lazar/jetforce
+
+Server hostname is zork.club
+TLS Certificate File: /etc/letsencrypt/live/zork.club/fullchain.pem
+TLS Private Key File: /etc/letsencrypt/live/zork.club/privkey.pem
+Listening on 167.71.119.170:1965
+177.236.52.215 [22/Mar/2021:04:08:35 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:08:39 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 417
+177.236.52.215 [22/Mar/2021:04:13:07 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:13:12 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:13:14 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:13:54 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:13:56 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:13:58 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 417
+177.236.52.215 [22/Mar/2021:04:16:21 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:16:24 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 417
+177.236.52.215 [22/Mar/2021:04:16:29 +0000] "gemini://zork.club/cgi-bin/zork.cgi?help" 20 text/gemini 4742
+177.236.52.215 [22/Mar/2021:04:16:35 +0000] "gemini://zork.club/cgi-bin/zork.cgi?restore" 20 text/gemini 316
+177.236.52.215 [22/Mar/2021:04:16:37 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:16:39 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 363
+177.236.52.215 [22/Mar/2021:04:16:46 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:16:47 +0000] "gemini://zork.club/cgi-bin/zork.cgi?d" 20 text/gemini 698
+177.236.52.215 [22/Mar/2021:04:16:50 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:16:53 +0000] "gemini://zork.club/cgi-bin/zork.cgi?quit" 20 text/gemini 306
+
+You are now riding on...
+_________    _____________
+______  /______  /___  __/_______________________
+___ _  /_  _ \  __/_  /_ _  __ \_  ___/  ___/  _ \
+/ /_/ / /  __/ /_ _  __/ / /_/ /  /   / /__ /  __/
+\____/  \___/\__/ /_/    \____//_/    \___/ \___/
+
+An Experimental Gemini Server, v0.8.1
+https://github.com/michael-lazar/jetforce
+
+Server hostname is zork.club
+TLS Certificate File: /etc/letsencrypt/live/zork.club/fullchain.pem
+TLS Private Key File: /etc/letsencrypt/live/zork.club/privkey.pem
+Listening on 167.71.119.170:1965
+177.236.52.215 [22/Mar/2021:04:29:27 +0000] "gemini://zork.club/cgi-bin/zork.cgi?quit" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:29:34 +0000] "gemini://zork.club/cgi-bin/zork.cgi" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:29:38 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:29:40 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 417
+177.236.52.215 [22/Mar/2021:04:29:44 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:29:46 +0000] "gemini://zork.club/cgi-bin/zork.cgi?quit" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:29:53 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:29:55 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:30:12 +0000] "gemini://zork.club/cgi-bin/zork.cgi?cmd" 10 > 7
+177.236.52.215 [22/Mar/2021:04:30:14 +0000] "gemini://zork.club/cgi-bin/zork.cgi?l" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:30:18 +0000] "gemini://zork.club/cgi-bin/zork.cgi?info" 20 text/gemini 306
+177.236.52.215 [22/Mar/2021:04:30:21 +0000] "gemini://zork.club/cgi-bin/zork.cgi?help" 20 text/gemini 306
