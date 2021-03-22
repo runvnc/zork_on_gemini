@@ -7,6 +7,8 @@ This provides a way to play Zork in your Gemini browser.  For anyone who doesn't
 You will need a client certificate setup already.
 Sort of an alpha, so YMMV.
 
+Note: if it fails to display the initial text, try the "look" command.
+
 => /cgi-bin/zork.cgi ▶️  Play Zork
 
 => /cgi-bin/loggedin.cgi Logged in users
@@ -25,6 +27,11 @@ There are also processes for controlling each instance of zork.  IPC is via redi
 You can find the source code for zork here:
 => https://github.com/devshane/zork
 
+## Contact
+```
+runvnc at gmail.com
+```
+
 ## Similar
 
-=> gemini://gemini.thegonz.net Amazing work, several interactive programs
+=> gemini://gemini.thegonz.net gemini.thegonz.net: Amazing work, several interactive programs
