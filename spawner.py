@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 import os, subprocess, sys
 from urllib.parse import unquote
 from pathlib import Path

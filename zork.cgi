@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 import os, subprocess, sys, time, traceback, logging
 from urllib.parse import unquote
 from pathlib import Path
@@ -24,8 +24,6 @@ if __name__ == '__main__':
         else:
             respond(SUCCESS, 'text/gemini')
             print("# Zork")
-            print("=> / Home")
-            print()
             print(f'## [{user}]')
             print()
             #print("```shell")
