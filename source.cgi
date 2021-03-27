@@ -17,10 +17,13 @@ def show(fname):
         print('```')
 
 respond(SUCCESS, 'text/gemini')
+print("=> / Back")
 print("# Source code")
 print()
 print("Note: on this page the comments (which are actually just dead code) and logging are stripped out to make it easier to understand. Also note, I have not written a lot of Python code before.")
+print("Link to github at the end.")
 show('zork.cgi')
+show('gemini.py')
 show('control_zork.py')
 show('data_redis.py')
 show('spawner.py')

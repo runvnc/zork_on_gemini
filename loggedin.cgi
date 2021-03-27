@@ -14,7 +14,7 @@ list = loggedin.split()
 count = 0
 str = ''
 for item in list:
-    if item != 'zork' and ("$NF" not in item) and (".pem" not in item):
+    if item != 'zork' and ("$NF" not in item) and (".pem" not in item) and (".py" not in item):
         if count > 0: str += ", "
         count += 1
         str += item
