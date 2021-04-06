@@ -46,14 +46,14 @@ if __name__ == '__main__':
                             
                 #print("\r\n```")
                 print()
-                print("=> zork.cgi?cmd < ⌨️  Input command >")
-                print("=> zork.cgi?look < 👀 Look >")
-                print("=> zork.cgi?help < ❔ Help >")
-                print("=> zork.cgi?info < ℹ️  Info >")
-                print("=> zork.cgi?inventory < 🎒 Inventory >")
-                print("=> zork.cgi?save < 💾 Save >")
-                print("=> zork.cgi?restore < 📂 Restore >")
-                print(f"=> {user}.dat < 📥 Download save file >")
+                print("=> zork.cgi?cmd ⌨️  Input command")
+                print("=> zork.cgi?look 👀 Look")
+                print("=> zork.cgi?help ❔ Help")
+                print("=> zork.cgi?info ℹ️ Info")
+                print("=> zork.cgi?inventory 🎒 Inventory")
+                print("=> zork.cgi?save 💾 Save")
+                print("=> zork.cgi?restore 📂 Restore")
+                print(f"=> {user}.dat 📥 Download save file")
 
             except Exception as err:
                 print("Error:")
